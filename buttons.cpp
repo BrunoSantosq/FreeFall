@@ -1,4 +1,4 @@
-// Copyright (c) 2025 Bruno da Silva Santos
+// Copyright (c) 2025 Bruno s Santos
 
 #pragma once
 #include "buttons.h"
