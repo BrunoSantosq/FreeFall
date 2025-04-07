@@ -446,13 +446,13 @@ void Devices::Calcular(const unsigned long t1, const unsigned long t2)
 {
   if(t1 != 0 && t2 != 0)
   {
-    dt = (t2 - t1);// micros para segundos
-    dt=dt/1000000.0;
+    dt = (t2 - t1);
+    dt=dt/1000000.0;// micros para segundos
     ge = (2*alturas[index_alturas])/(dt*dt);
     vf = ge * dt;
     ep = abs((ge-Gt)/Gt)*100;
     //------------------------------------------
-    //--para debug---
+    /*--para debug---
     Serial.print("t1: ");
     Serial.println(t1/1000000.0, 6);
     Serial.print("t2: ");
@@ -464,7 +464,7 @@ void Devices::Calcular(const unsigned long t1, const unsigned long t2)
     Serial.print("Vf: ");
     Serial.println(vf, 6);
     Serial.print("ep: ");
-    Serial.println(ep, 6);
+    Serial.println(ep, 6);*/
     
     delay(2000);
     Limpa();
