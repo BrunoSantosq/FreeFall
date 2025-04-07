@@ -50,7 +50,7 @@ void setup(){
   devices.Setup();
   Serial.begin(9600);
   
-  devices.Animar();
+  devices.Animar();//animação inicial
   delay(1000);
   
   devices.Imprime(6,1,"BEM VINDO");
