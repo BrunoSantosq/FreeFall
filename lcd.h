@@ -1,4 +1,4 @@
-//Copyright (c) 2025 Bruno da Silva Santos
+//Copyright (c) 2025 Bruno Santos
 
 #pragma once
 #include <Wire.h>
