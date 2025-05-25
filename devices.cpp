@@ -1,7 +1,7 @@
 /*
   MIT License
 
-  Copyright (c) 2025 Bruno da Silva Santos
+  Copyright (c) 2025 Bruno Santos
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -23,7 +23,7 @@
 */
 
 /*
-    @Bruno da silva santos - 2025
+    @Bruno santos - 2025
     Este código faz parte do projeto queda livre utilizando arduino
     desenvolvido como parte do Pibid na universidade estadual do Maranhão
 */
