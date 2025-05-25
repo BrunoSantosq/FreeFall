@@ -1,7 +1,7 @@
 /*
   MIT License
 
-  Copyright (c) 2025 Bruno s Santos
+  Copyright (c) 2025 Bruno Santos
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,8 @@ Devices devices;
     vcc-> 3v3
     sda-> 21
     scl-> 22
-
+/----\
+LCD  20X4 i2c
 */
 
 
